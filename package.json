@@ -4,7 +4,8 @@
   "description": "Asicronismo en javascript",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
   },
   "keywords": [
     "js",
@@ -14,5 +15,8 @@
     "await"
   ],
   "author": "fainnerramirez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
